@@ -46,16 +46,27 @@ ul.user-sec li a {
 .banner {
     background: var(--smoke-white);
     /* background: rebeccapurple; */
+    outline: none !important;
+    border: none !important;
 }
 
 .banner__img {
     height: 90vh;
+
 }
 
 .banner__img img {
     position: relative;
     left: 290px;
     top: 0;
+    
+}
+
+.banner__img .banner__1,
+.banner__img .banner__2,
+.banner__img .banner__3
+ {
+    outline: none;
 }
 
 .banner__img .caption {
@@ -116,7 +127,7 @@ ul.user-sec li a {
 }
 
 .banner .vertical__div p.vertical__text {
-    color: var(--light-gray);
+    color: var(--mid-gray);
     transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
@@ -140,8 +151,8 @@ ul.user-sec li a {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    cursor: pointer;
     color: var(--white);
+    cursor: pointer;
 }
 
 
@@ -155,5 +166,16 @@ ul.user-sec li a {
 }
 
 .slick-dots li.slick-active button:before {
-    color: var(--light-gray);
+    color: var(--mid-gray);
 }
+
+.slick-prev:before, .slick-next:before {
+    color: var(--mid-gray);  
+}
+
+.slide-arrow{
+    position: absolute;
+    bottom: 10px;
+  } 
+
+  

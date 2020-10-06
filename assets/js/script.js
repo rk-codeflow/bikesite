@@ -5,10 +5,12 @@ feather.replace();
   $('.banner__img').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true,
+    arrows: false,
     infinite: true,
-    autoplay: true,
+    // autoplay: true,
     speed: 500,
     dots: true,
-    fade: true
+    fade: true,
+    
   });
+
