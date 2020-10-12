@@ -14,3 +14,8 @@ feather.replace();
     
   });
 
+// dynamic year
+const fullYear = document.querySelector('.fullyear');
+
+fullYear.innerHTML = new Date().getFullYear();
+
