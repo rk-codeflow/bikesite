@@ -225,6 +225,19 @@ ul.user-sec li a {
     padding: 30px 20px 0;
 }
 
+.collection__item__right {
+    background: var(--white);
+}
+
+.collection__item__right .item {
+    margin: 10px;
+}
+
+.collection__item__right img {
+    max-height: 150px;
+    float: right;
+}
+
 .collection__item__left img {
     position: relative;
     left: -20px;
