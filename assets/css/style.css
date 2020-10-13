@@ -222,15 +222,31 @@ ul.user-sec li a {
 
 .collection__item__left {
     background: var(--white);
-    padding: 30px 20px 0;
+    /* padding: 30px 20px 0; */
+    height: 462px;
+    padding: 25px 35px 0px;
+    
 }
 
-.collection__item__right {
-    background: var(--white);
+.collection__item__left h2.title,
+.collection__item__left p.sub__title {
+    color: var(--mid-gray); 
 }
 
-.collection__item__right .item {
-    margin: 10px;
+.collection__item__left a.more-icon {
+    position: relative;
+    bottom: -43px;
+    font-size: 15px;
+    font-weight: 200;
+    text-decoration: none;
+    color: var(--mid-gray);
+}
+
+.collection__item__left img {
+    position: relative;
+    left: -52px;
+    max-height: 258px;
+    bottom: -92px;
 }
 
 .collection__item__right img {
@@ -238,9 +254,52 @@ ul.user-sec li a {
     float: right;
 }
 
-.collection__item__left img {
-    position: relative;
-    left: -20px;
+.collection__item__right .item {
+   padding: 25px 35px 0px;
 }
+
+.collection__item__right .item a.more-text {
+    font-size: 15px;
+    font-weight: 200;
+    text-decoration: none;
+    color: var(--mid-gray);
+    position: relative;
+    top: 100px;
+}
+
+.collection__item__right .item a.more-text svg,
+.collection__item__left svg {
+    height: 15px;
+}
+
+.collection__item__right .sec__item h5.title, 
+.collection__item__right .trd__item h5.title {
+    color: var(--mid-gray);
+}
+
+
+
+
+.collection__item__right .first__item,
+.collection__item__right .frth__item {
+    background: var(--mid-gray);
+}
+
+.collection__item__right .sec__item,
+.collection__item__right .trd__item {
+    background: var(--white);
+}
+
+.catalog__btn a.full__width__btn {
+    background: var(--mid-gray);
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
 
   
